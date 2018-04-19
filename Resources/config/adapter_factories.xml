@@ -62,6 +62,9 @@
         <service id="knp_gaufrette.adapter.factory.dropbox" class="Knp\Bundle\GaufretteBundle\DependencyInjection\Factory\DropboxAdapterFactory">
             <tag name="gaufrette.adapter.factory" />
         </service>
+         <service id="knp_gaufrette.adapter.factory.aliyun_oss" class="Knp\Bundle\GaufretteBundle\DependencyInjection\Factory\AliyunOssAdapterFactory">
+            <tag name="gaufrette.adapter.factory" />
+        </service>
     </services>
 
 </container>
